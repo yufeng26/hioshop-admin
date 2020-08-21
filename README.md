@@ -74,6 +74,8 @@ npm install
 在node_modules 搜索:  div class="el-form-item__label-wrap" style={style}  
 然后在语句中加上单引号就可以了。
 
+return '<div class="el-form-item__label-wrap" style={style}>{ slots }</div>';
+
 <img width="600" src="http://git.hiolabs.com/github/before.jpg"/>
 
 <img width="600" src="http://git.hiolabs.com/github/after.jpg"/>
